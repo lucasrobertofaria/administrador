@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_a_paroquia"
+            android:icon="@drawable/ic_church"
+            android:title="@string/a_paroquia" />
+        <item
+            android:id="@+id/nav_missas"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/missa" />
+        <item
+            android:id="@+id/nav_confissoes"
+            android:icon="@drawable/ic_add_black"
+            android:title="@string/confissoes" />
+    </group>
+
+    <item android:title="@string/comunicacao">
+        <menu>
+            <item
+                android:id="@+id/nav_contato"
+                android:icon="@drawable/ic_phone_black"
+                android:title="@string/contato" />
+        </menu>
+    </item>
+
+</menu>

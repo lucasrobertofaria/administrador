@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a_paroquia">A Paróquia</string>
+    <string name="missa">Missa</string>
+    <string name="confissoes">Confissões</string>
+    <string name="contato">Contato</string>
+    <string name="comunicacao">Comunicação</string>
+    <string name="contato_descricao">Neste menu deve ser cadastrado todos os contatos da paróquia a serem divulgados para os fiéis.</string>
+</resources>

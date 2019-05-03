@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Gerenciador asdasdasad da Paróquia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Teste</string>
+    <string name="nav_header_subtitle">android.asdasd@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="a_paroquia">A Paróquia</string>
+    <string name="missa">Missa</string>
+    <string name="confissoes">Confissões</string>
+    <string name="contatos">Contatos</string>
+    <string name="comunicacao">Comunicação</string>
+
+    <string name="contato_descricao">Neste menu deve ser cadastrado todos os contatos da paróquia a serem divulgados para os fiéis.</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="site">Site</string>
+    <string name="contatos_sub">Cadastre aqui os contatos que deseja compartilhar com os paroquianos</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="padroeiro">Padroeiro da Paróquia</string>
+    <string name="data_fundacao">Data de fundação</string>
+    <string name="historia_paroquia">Conte a história da Paróquia</string>
+    <string name="info_contatos">Informe aqui os contatos da Paróquia que serão disponibilizados para os fiéis.</string>
+    <string name="info_paroquia">Informe aqui algumas informações da história da Paróquia que serão disponibilizados para os fiéis.</string>
+    <string name="horario_confissoes">Horários de confissões</string>
+    <string name="info_confissoes">Informações sobre confissões</string>
+    <string name="info_horario_confissoes">Informe aqui as informações necessárias para os fiéis poderem se confessar, como horários e necessidade de agendamento.</string>
+    <string name="frequencia">Frequência</string>
+    <string name="dia_da_semana">Dia da semana</string>
+    <string name="horario">Horário</string>
+    <string name="observacao">Observação</string>
+    <string name="titulo">Título</string>
+    <string name="data">Data</string>
+
+    <string name="missa_descricao">Informe aqui as informações sobre a data e horário de missa na Paróquia</string>
+    <string name="selecione_frequencia">Selecione a frequência</string>
+    <string name="selecione_dia_semana">Selecione o dia da semana</string>
+</resources>

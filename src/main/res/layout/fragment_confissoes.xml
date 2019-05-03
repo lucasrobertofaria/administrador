@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragment.ConfissoesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txInfoHorarioConfissoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingBottom="16dp"
+            android:text="@string/info_horario_confissoes"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputConfissoes"
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editConfissoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_cross"
+                android:drawablePadding="8dp"
+                android:hint="@string/info_confissoes"
+                android:minLines="5" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/loading_layout" />
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/float_button_save_layout" />
+</FrameLayout>
